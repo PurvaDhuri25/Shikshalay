@@ -26,7 +26,7 @@ html{
 }
 
 .logo-image{
-  height: 85px;
+  height: 75px;
   margin-top: -14px;
   margin-left: 30px;
 }
@@ -67,29 +67,7 @@ html{
   height: 50vh;
 }
 
-.footer-text{
-  color: gray;
-  font-weight: 500;
-}
 
-.footer-link a{
-font-size: px;
-
-}
-
-.footer{
-  position: fixed;
-   left: 0;
-   bottom: 0px;
-   width: 100%;
-   background-color: #c9d7fe;
-   color: white;
-   text-align: center;
-   height: 5vh;
-   align-items: center;
-   display: flex;
-   margin-bottom: 0;
-}
 
 .sidenav{
   display: block;
@@ -105,11 +83,7 @@ nav ul a {
   font-size: 20px;
 }
 
-.footer-text{
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-}
+
 
 
 h6{
@@ -286,10 +260,11 @@ h4{
 
 .contact-page-container{
   background-image: url('/img/signup.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   
+  background-color: white;
+  height: 92vh;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
     padding-top: 5vh;
     color: Black;
 }
@@ -320,7 +295,7 @@ h4{
  }
 
 .Contact-form{
-  margin-top: 5vh;
+  margin-top: 7vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -329,6 +304,7 @@ h4{
     background-image: url('https://images.unsplash.com/photo-1494185728463-86366f396213?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-image: none;
+    height: 100%;
   }
 
 
@@ -387,66 +363,6 @@ h4{
 .contact-list {
   display: inline-block;
 }
-
-
-/* Social Media Icons */
-.social-media-list {
-  position: relative;
-  font-size: 1.8rem;
-  text-align: center;
-  width: 100%;
-}
-
-.social-media-list li a {
-  color: #fff;
-}
-
-.social-media-list li {
-  position: relative; 
-  top: 0;
-  display: inline-block;
-  height: 55px;
-  width: 55px;
-  margin: 5px ;
-  line-height: 60px;
-  border-radius: 50%;
-  color: #fff;
-  background-color:#3598dc ;
-  cursor: pointer; 
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 55px;
-  height: 55px;
-  line-height: 60px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:hover {
-  background-color : #ef259a ;
-  
-}
-
-.social-media-list li:hover a {
-  color : white ; 
-}
-
-
-.social-media-list li:hover:after {
-  opacity: 1;  
-  transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-}
-
-
 
 .about-page-text-div{
   margin-top: 15vh;
@@ -516,4 +432,61 @@ h4{
   left: auto;
   top: 2rem;
   opacity: 0;
+}
+
+footer{
+  color: #fff;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0A141E;
+ 
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+
+}
+.social-links a{
+  position: relative; 
+
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  margin: 5px ;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #0D4F8B;
+  background-color:#3598dc ;
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+.social-links a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  height: 55px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-links a:hover {
+  background-color : #ef259a ;
+  
+}
+
+.social-links a:hover a {
+  color : white ; 
+}
+
+
+.social-links a:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
 }

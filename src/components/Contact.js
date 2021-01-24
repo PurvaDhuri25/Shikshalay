@@ -22,36 +22,7 @@ return (
           <input className="center" type="submit" placeholder="Submit" />
         </form>
 
-        <ul class="contact-list">
-        
-          <li class="list-item">
-            <i className="material-icons  left contact-page-icons">email</i>
-            <span class="contact-text gmail">
-              <a href="mailto:#" title="Send me an email">
-                help@shikshalay.com
-              </a>
-            </span>
-          </li>
-        </ul>
-
-
-        <ul class="social-media-list center">
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fab fa-facebook" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fab fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fab fa-instagram" aria-hidden="true"></i></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fab fa-youtube" aria-hidden="true"></i></a>
-          </li>
-        </ul>
-        
-
-
+      
       </div>
     </div>
   </div>

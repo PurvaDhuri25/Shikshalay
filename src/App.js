@@ -6,6 +6,7 @@ import Home from './components/Home' ;
 import Dashboard from './components/Dashboard' ;
 import Signup from './components/Signup' ;
 import Login from './components/Login' ;
+import Footer from "./components/footer";
 
 import NotFound from './components/NotFound' ;
 import { BrowserRouter,Route,Switch} from "react-router-dom";
@@ -30,7 +31,7 @@ function App() {
         <Route  component={NotFound} />
       </Switch>
 
-      
+      < Footer/>
       </div>
     </BrowserRouter>
   );

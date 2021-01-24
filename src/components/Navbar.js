@@ -10,7 +10,7 @@ function Navbar(props) {
        <div className="nav-wrapper z-depth-1">
        
           <Link to='/' className="brand-logo">
-          <img src={require('../logo1.jpeg') }  className="logo-image"/>
+          <img src={require('../logo1.png') }  className="logo-image"/>
          
          </Link>
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
