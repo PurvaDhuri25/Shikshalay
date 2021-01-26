@@ -1,6 +1,7 @@
 import React,{Component} from 'react' ;
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Link, useHistory } from "react-router-dom";
 class Home extends Component{
 
 
@@ -14,6 +15,7 @@ return (
       <div className="col s12 m12 l12 main-column ">
         <div className="col s12 m12 l12  ">
           <div className=" col s12 m6 l6 brand-text">
+        
             <h1 className="center main-heading">Shikshalay</h1>
             <h5 className="center slogan">
             "Anyone who keeps learning stays young." <br /><b>Education at your fingertips</b>{" "}
@@ -45,18 +47,14 @@ return (
           <div className="card" >
               <div className="card-content">
                 <div class="card-image">
-                  <img src="https://miro.medium.com/max/1400/0*v-2G45CpWvbFUgX1" />
+                  <img src="https://lh3.googleusercontent.com/proxy/c0vtknzZGKEW1Da_RjlQKbxyHKcP5T5_AaCkUvpRi5AihLcUNhg6EC7Em5MHAppH6GH3Cvlfag0POITAZNruvu8LwXVWicVVL7bOv-GV5mylDHf4DbD3qsDBaKq8" />
                 </div>
                 <span className="card-title">
-                  <h5>How To Learn Something Every Day Easily</h5>
+                  <h5>Multilingual</h5>
                 </span>
-                <p>
-                A 4-step process for practical, daily learning to help you learn any skill Easily.
-                Without much efforts
-                </p>
-                <a className="waves-effect waves-light btn card-btn">
-                Read More... <i className="material-icons right">arrow_right_alt</i>
-                </a>
+               <p>Any single language can address no more than 30 percent of the global population. For example, English is commonly regarded as one of the world’s most used languages. However, 70 percent of web surfers don’t speak English as their first language. </p>
+
+               
               </div>
             </div>
             
@@ -66,18 +64,15 @@ return (
           <div className="card" >
               <div className="card-content">
                 <div class="card-image">
-                  <img src="https://miro.medium.com/max/700/0*H05DN-vpwlujdFpm" />
+                  <img src="https://ewscripps.brightspotcdn.com/dims4/default/5a19008/2147483647/strip/true/crop/1920x1080+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F51%2F68%2F28ec10be469898ec46ee7c287735%2Fsuper-summer-rise-digital-offline-learning.jpg" />
                 </div>
                 <span className="card-title">
-                  <h5>How To Follow Your Boss Even When Things Are Uncertain</h5>
+                  <h5>Offline Access</h5>
                 </span>
                 <p>
-                Learning to become indispensable in your business despite the chaos.
-                Learn How to be more patient
+                In remote locations, where internet is scarce or nonexistent, things have to work offline. Internet isn’t reliable in the middle of the ocean, so using online-only apps is a recipe for disaster. If a modem or router dies, it can take days to get someone out to the site to fix the problem. You can’t afford to shut down production for that long.
                 </p>
-                <a className="waves-effect waves-light btn card-btn">
-                Read More... <i className="material-icons right">arrow_right_alt</i>
-                </a>
+              
               </div>
             </div>
        </div>
@@ -87,18 +82,15 @@ return (
           <div className="card" >
               <div className="card-content">
                 <div class="card-image">
-                  <img src="https://miro.medium.com/max/1000/1*b-Q3_isR-6iVYOlIOMsbAQ.jpeg" />
+                  <img src="https://www.bigtincan.com/wp-content/uploads/gamified-learning-platform.jpg" />
                 </div>
                 <span className="card-title">
-                  <h5>Being in Lockdown Showed Me How Selfish I Can Be</h5>
+                  <h5>Gamified Learning</h5>
                 </span>
                 <p>
-                Winning the fight against unmet expectations.This quarantine learn how to 
-                imporve for better
+                Gamification is more than just a buzzword. Far from child’s play, HR and L&D professionals should not underestimate the benefits of gamification in corporate training. Infusing gameplay and leveraging competitiveness not only makes your corporate training more dynamic it can also significantly increase learner engagement too. 
                 </p>
-                <a className="waves-effect waves-light btn card-btn">
-                Read More... <i className="material-icons right">arrow_right_alt</i>
-                </a>
+               
               </div>
             </div>
        </div>
@@ -117,7 +109,7 @@ return (
                   <img src="/img/eng.jpg" />
                 </div>
                 <a className="waves-effect waves-light btn card-btn">
-               View Lectures <i className="material-icons right">arrow_right_alt</i>
+                <Link to="/Dashboard">View Lectures</Link>  <i className="material-icons right">arrow_right_alt</i>
                 </a>
               </div>
             </div>
@@ -129,8 +121,8 @@ return (
                 <div class="card-image">
                   <img src="/img/sci.jpg" />
                 </div>
-                <a className="waves-effect waves-light btn card-btn">
-               View Lectures <i className="material-icons right">arrow_right_alt</i>
+                <a className="waves-effect waves-light btn card-btn" href=''>
+                <Link to="/Dashboard">View Lectures</Link> <i className="material-icons right">arrow_right_alt</i>
                 </a>
               </div>
             </div>
@@ -143,7 +135,7 @@ return (
                   <img src="/img/maths.jpg" />
                 </div>
                 <a className="waves-effect waves-light btn card-btn">
-               View Lectures <i className="material-icons right">arrow_right_alt</i>
+                <Link to="/Dashboard">View Lectures</Link>  <i className="material-icons right">arrow_right_alt</i>
                 </a>
               </div>
             </div>

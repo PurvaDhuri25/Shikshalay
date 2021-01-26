@@ -21,8 +21,8 @@ html{
 
 .brand-logo{
   margin-left: -10px;
-  margin-top: 5px;
-  font-weight: 700;
+  margin-top: 6px;
+  font-weight: 400;
 }
 
 .logo-image{
@@ -51,6 +51,7 @@ html{
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 
@@ -297,6 +298,12 @@ h4{
 .Contact-form{
   margin-top: 7vh;
 }
+.extrapage-container{
+  background-image: url('https://images.unsplash.com/photo-1590603681425-713b2d84241d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  background-size: cover;
+  background-image: none;
+  height: 100%;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -412,8 +419,9 @@ h4{
 
 .upload-btn-wrapper {
   position: relative;
-  overflow: hidden;
+
   display: inline-block;
+  margin-left: 45%;
 }
 
 .btnn {
@@ -433,7 +441,7 @@ h4{
   top: 2rem;
   opacity: 0;
 }
-
+/*
 footer{
   color: #fff;
   height: 120px;
@@ -446,7 +454,7 @@ footer{
   text-align: center;
   width: 100%;
 
-}
+}*/
 .social-links a{
   position: relative; 
 

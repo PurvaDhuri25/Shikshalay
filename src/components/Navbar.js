@@ -16,6 +16,8 @@ function Navbar(props) {
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul className="right hide-on-med-and-down">
              <li>
+             <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=false" type="text/javascript"></script>
+             </li><li>
                 <Link to='/'>
                 Home</Link>      
              </li>

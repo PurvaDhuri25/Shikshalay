@@ -6,7 +6,11 @@ import Home from './components/Home' ;
 import Dashboard from './components/Dashboard' ;
 import Signup from './components/Signup' ;
 import Login from './components/Login' ;
+import Profile from './components/Profile' ;
 import Footer from "./components/footer";
+import useAlan from './components/useAlan' ;
+import Forum from './components/Forum' ;
+import myvideos from './components/myvideos' ;
 
 import NotFound from './components/NotFound' ;
 import { BrowserRouter,Route,Switch} from "react-router-dom";
@@ -15,6 +19,7 @@ import { BrowserRouter,Route,Switch} from "react-router-dom";
 
 
 function App() {
+  useAlan()
   return (
 
     <BrowserRouter>
@@ -28,6 +33,9 @@ function App() {
         <Route path='/dashboard' component={Dashboard}/>
         <Route path='/login' component={Login}/>
         <Route path='/signup' component={Signup}/>
+        <Route path='/Profile' component={Profile}/>
+        <Route path='/Forum' component={Forum}/>
+        <Route path='/myvideos' component={myvideos}/>
         <Route  component={NotFound} />
       </Switch>
 
