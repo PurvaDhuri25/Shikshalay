@@ -9,6 +9,9 @@ return (
   <div className="col s12 m6 l6 about-page-text-div"> 
   
   <h3>About Us ?</h3>  
+  
+             <div id="ytWidget"></div><div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=light&autoMode=false" type="text/javascript"></script>
+            
   <h5> We are a Bunch of Passionate Students who are trying to solve the problems faced by
      people in rural areas with help of Technology</h5>
   </div>
