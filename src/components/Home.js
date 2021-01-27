@@ -47,7 +47,7 @@ return (
           <div className="card" >
           <div className="card-content">
                 <div class="card-image">
-                  <img src="https://ewscripps.brightspotcdn.com/dims4/default/5a19008/2147483647/strip/true/crop/1920x1080+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F51%2F68%2F28ec10be469898ec46ee7c287735%2Fsuper-summer-rise-digital-offline-learning.jpg" />
+                  <img src="https://www.thailandmedical.news/uploads/editor/files/multilingual-will-lower.jpg />
                 </div>
                 <span className="card-title">
                   <h5>Multilingual</h5>
