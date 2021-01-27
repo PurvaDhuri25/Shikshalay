@@ -1,10 +1,10 @@
 import React from 'react' ;
 import {Link,NavLink} from 'react-router-dom' ;
-
+import { useTranslation } from "react-i18next";
 
 function Navbar(props) {
-  return(
-
+   return (
+   
     <div>
     <nav>
        <div className="nav-wrapper z-depth-1">
@@ -13,8 +13,10 @@ function Navbar(props) {
           <img src={require('../logo1.png') }  className="logo-image"/>
          
          </Link>
+    
           <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
           <ul className="right hide-on-med-and-down">
+         
              <li>
                 <Link to='/'>
                 Home</Link>      

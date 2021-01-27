@@ -11,21 +11,21 @@ import Footer from "./components/footer";
 import useAlan from './components/useAlan' ;
 import Forum from './components/Forum' ;
 import myvideos from './components/myvideos' ;
-
 import NotFound from './components/NotFound' ;
 import { BrowserRouter,Route,Switch} from "react-router-dom";
-
-
+import Header from './Header';
 
 
 function App() {
   useAlan()
+  
   return (
-
+ 
     <BrowserRouter>
       <div className="App">
-      <Navbar brandname='Shikshalay'/>
       
+      <Navbar brandname='Shikshalay'/>
+    
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
@@ -38,7 +38,7 @@ function App() {
         <Route path='/myvideos' component={myvideos}/>
         <Route  component={NotFound} />
       </Switch>
-
+      
       < Footer/>
       </div>
     </BrowserRouter>
