@@ -43,23 +43,23 @@ return (
             <h4>Our Features</h4>
 
             <div className="row">
-       <div className="col s12 m4 l4">
+            <div className="col s12 m4 l4">
           <div className="card" >
               <div className="card-content">
                 <div class="card-image">
-                  <img src="https://www.thailandmedical.news/uploads/editor/files/multilingual-will-lower.jpg" />
+                  <img src="https://www.thailandmedical.news/uploads/editor/files/multilingual-will-lower.jpg"/>
                 </div>
                 <span className="card-title">
                   <h5>Multilingual</h5>
                 </span>
-               <p>Any single language can address no more than 30 percent of the global population. For example, English is commonly regarded as one of the world’s most used languages. However, 70 percent of web surfers don’t speak English as their first language. </p>
-
-               
+                <p>
+                Any single language can address no more than 30 percent of the global population. For example, English is commonly regarded as one of the world’s most used languages. However, 70 percent of web surfers don’t speak English as their first language.
+                </p>
+              
               </div>
             </div>
-            
        </div>
-
+      
        <div className="col s12 m4 l4">
           <div className="card" >
               <div className="card-content">
